@@ -1,0 +1,21 @@
+﻿<Window x:Name="win" x:Class="Doom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="875" Width="996">
+    <Grid x:Name="myGrid">
+        <Line X1="498" X2="502" Y1="500" Y2="500" Stroke="Black" StrokeThickness="2"></Line>
+        <Label x:Name="angle1" Content="Label" HorizontalAlignment="Left" Margin="63,20,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="angle2" Content="Label" HorizontalAlignment="Left" Margin="63,51,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="distY1" Content="Label" HorizontalAlignment="Left" Margin="63,113,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="distX1" Content="Label" HorizontalAlignment="Left" Margin="63,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="distY2" Content="Label" HorizontalAlignment="Left" Margin="321,113,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="distX2" Content="Label" HorizontalAlignment="Left" Margin="321,82,0,0" VerticalAlignment="Top"/>
+        <Rectangle Fill="#FFDCDCFF" HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="988" Panel.ZIndex="-99999"/>
+        <Rectangle Fill="#FF634D15" HorizontalAlignment="Left" Height="430" VerticalAlignment="Top" Width="988" Panel.ZIndex="-99999" Margin="0,400,0,0"/>
+
+
+        <!--<Line Name="myLine" X1="500" X2="500" Y1="400" Y2="600" Stroke="Black" StrokeThickness="2"></Line>
+        <Line x:Name="myLine_Copy" X1="500" X2="500" Y1="400" Y2="600" Stroke="Black" StrokeThickness="2"/>-->
+
+    </Grid>
+</Window>
